@@ -1,0 +1,4 @@
+README
+
+- Run ifconfig, find IP address after "inet"
+- Change IP address in public/js/chat.js
