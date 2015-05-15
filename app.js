@@ -41,14 +41,14 @@ app.get('/', index.view);
 
 //setup for heroku
 
-var io = require('socket.io').listen(app.listen(port));//app.listen(port);
+var io = require('socket.io').listen(app.listen(process.env.PORT ||port));//app.listen(port);
 
 io.configure(function () {  
   io.set("transports", ["xhr-polling"]); 
   io.set("polling duration", 10); 
 });
 
-console.log("Listening on port " + port);
+//console.log("Listening on port " + port);
 
 /***** Connection Handler That Every Socket.io App should Begin With *****/
 io.sockets.on('connection', function (socket) 
