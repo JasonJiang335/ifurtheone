@@ -39,7 +39,15 @@ app.get('/', index.view);
 // Example route
 // app.get('/users', user.list);
 
+//setup for heroku
+
 var io = require('socket.io').listen(app.listen(port));//app.listen(port);
+
+io.configure(function () {  
+  io.set("transports", ["xhr-polling"]); 
+  io.set("polling duration", 10); 
+});
+
 console.log("Listening on port " + port);
 
 /***** Connection Handler That Every Socket.io App should Begin With *****/

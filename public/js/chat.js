@@ -1,7 +1,8 @@
 window.onload = function() {
     $('#selectRole').modal('show');
     var messages = [];
-    var socket = io.connect('http://128.54.34.175:3700/');
+    //var socket = io.connect('http://192.168.0.11:3700/');
+    var socket = io.connect(window.location.hostname);
 
     /*var field = document.getElementById("field");
     var sendButton = document.getElementById("send");
