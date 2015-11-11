@@ -24,6 +24,7 @@ window.onload = function() {
     var num14 = document.getElementById("num14");
     var num15 = document.getElementById("num15");
     var num16 = document.getElementById("num16");
+    var num17 = document.getElementById("num17");
 
     var shutBtn = document.getElementById("shut");
     var blowBtn = document.getElementById("blow");
@@ -51,6 +52,7 @@ window.onload = function() {
     $("#num13").hide();
     $("#num14").hide();
     $("#num15").hide();
+    $("#num16").hide();
     $("#allight").hide();
     $("#audgroup").hide();
     $("#adminpass").hide();
@@ -62,7 +64,7 @@ window.onload = function() {
 
     $(document).on('change','#roleNum',function(){
         selectRole = document.getElementById("roleNum").value;
-        if(selectRole == "16")
+        if(selectRole == "17")
         {
             $("#adminpass").show();
         }
@@ -134,8 +136,12 @@ window.onload = function() {
                 $("#wxscreen").hide();
             break;
             case "16":
+                $("#num16").show();
+                $("#wxscreen").hide();
+            break;
+            case "17":
                 var adminpass = document.getElementById("pass").value;
-                if(adminpass == "Dong930122")
+                if(adminpass == "cu2015")
                 {
                     $("#num1").show();
                     $("#num2").show();
@@ -152,6 +158,7 @@ window.onload = function() {
                     $("#num13").show();
                     $("#num14").show();
                     $("#num15").show();
+                    $("#num16").show();
                     $("#allight").show();
                     $("#audgroup").show();
                     $("#shutlight").show();
@@ -194,23 +201,8 @@ window.onload = function() {
             $("#num12").css("background-color", 'none');
             $("#num13").css("background-color", 'none');
             $("#num14").css("background-color", 'none');
-            $("#num15").css("background-color", 'none');   
-
-            $("#num1").fadeIn();
-            $("#num2").fadeIn();
-            $("#num3").fadeIn();
-            $("#num4").fadeIn();
-            $("#num5").fadeIn();
-            $("#num6").fadeIn();
-            $("#num7").fadeIn();
-            $("#num8").fadeIn();
-            $("#num9").fadeIn();
-            $("#num10").fadeIn();
-            $("#num11").fadeIn();
-            $("#num12").fadeIn();
-            $("#num13").fadeIn();
-            $("#num14").fadeIn();
-            $("#num15").fadeIn();
+            $("#num15").css("background-color", 'none');
+            $("#num16").css("background-color", 'none');
         }
     });
     socket.on('shutGirl', function (data)
@@ -261,6 +253,9 @@ window.onload = function() {
         break;
         case 15:
             $("#num15").css("background-color", 'd9534f');
+        break;
+        case 16:
+            $("#num16").css("background-color", 'd9534f');
         break;
         }
     });
@@ -314,6 +309,9 @@ window.onload = function() {
         case 15:
             $("#num15").css("background-color", 'none');
         break;
+        case 16:
+            $("#num16").css("background-color", 'none');
+        break;
         }
     });
 
@@ -366,6 +364,9 @@ window.onload = function() {
         case 15:
             $("#num15").css("background-color", '5cb85c');
         break;
+        case 16:
+            $("#num16").css("background-color", '5cb85c');
+        break;
     }
     });
 
@@ -417,6 +418,9 @@ window.onload = function() {
         break;
         case 15:
             $("#num15").fadeOut("slow");
+        break;
+        case 16:
+            $("#num16").fadeOut("slow");
         break;
     }
     });
@@ -526,5 +530,9 @@ window.onload = function() {
 
     $("#num15").click(function(){
         last = 15;
+    });
+
+    $("#num16").click(function(){
+        last = 16;
     });
 }
