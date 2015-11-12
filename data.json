@@ -1,5 +1,5 @@
 {
-	"friends": [
+	"friends_row1": [
 		{
 			"name": "1.邱铭婧",
 			"id": "num1",
@@ -39,7 +39,10 @@
 			"name": "8.Coco Zhan",
 			"id": "num8",
 			"imageURL": "/images/8.jpg"
-		},
+		}
+	],
+	
+	"friends_row2": [
 		{
 			"name": "9.昆娜",
 			"id": "num9",

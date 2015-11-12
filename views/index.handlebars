@@ -38,17 +38,24 @@
     
     <div class="wrapper" align="center">
         <div id="num_div">
-            {{#each friends}}
+            {{#each friends_row1}}
             <div id="{{id}}" style='display: inline-block; padding: 5px; border-radius: 40px'>
-                    <img alt="Responsive image" style='width: 68px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/>
-                    <p style='color: white'>{{name}}</p>
+                    <img alt="Responsive image" style='width: 100px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/>
+                    <p style='color: white; font-size:25px'>{{name}}</p>
+            </div>
+            {{/each}}
+            <br>
+            {{#each friends_row2}}
+            <div id="{{id}}" style='display: inline-block; padding: 5px; border-radius: 40px'>
+                    <img alt="Responsive image" style='width: 100px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/>
+                    <p style='color: white; font-size:25px'>{{name}}</p>
             </div>
             {{/each}}
         </div>
     </div>
     <div id="wxscreen">
         <center>
-            <iframe src="http://wxscreen.com/zgtxlhh3/message" width="1024" height="750"></iframe>
+            <iframe src="http://wxscreen.com/zgtxlhh3/message" width="1024" height="680" zoom="0.6"></iframe>
         </center>
     </div>
 
