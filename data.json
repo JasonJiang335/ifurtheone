@@ -1,85 +1,85 @@
 {
 	"friends_row1": [
 		{
-			"name": "1.邱铭婧",
+			"name": " 1.邱铭婧",
 			"id": "num1",
 			"imageURL": "/images/1.jpg"			
 		},
 		{
-			"name": "2.刘梦泽",
+			"name": " 2.刘梦泽",
 			"id": "num2",
 			"imageURL": "/images/2.jpg"			
 		},
 		{
-			"name": "3.孙铂乔",
+			"name": " 3.孙铂乔",
 			"id": "num3",
 			"imageURL": "/images/3.jpg"
 		},
 		{
-			"name": "4.Hilary Wang",
+			"name": " 4.Hilary Wang",
 			"id": "num4",
 			"imageURL": "/images/4.jpg"
 		},
 		{
-			"name": "5.庄晓童",
+			"name": " 5.庄晓童",
 			"id": "num5",
 			"imageURL": "/images/5.jpg"
 		},
 		{
-			"name": "6.孟德君",
+			"name": " 6.孟德君",
 			"id": "num6",
 			"imageURL": "/images/6.jpg"
 		},
 		{
-			"name": "7.Stella",
+			"name": " 7.Stella",
 			"id": "num7",
 			"imageURL": "/images/7.jpg"
 		},
 		{
-			"name": "8.Coco Zhan",
+			"name": " 8.Coco Zhan",
 			"id": "num8",
 			"imageURL": "/images/8.jpg"
 		}
 	],
-	
+
 	"friends_row2": [
 		{
-			"name": "9.昆娜",
+			"name": "9.昆娜 ",
 			"id": "num9",
 			"imageURL": "/images/9.png"
 		},
 		{
-			"name": "10.陈诗琪",
+			"name": "10.陈诗琪 ",
 			"id": "num10",
 			"imageURL": "/images/10.jpg"
 		},
 		{
-			"name": "11.潘由李",
+			"name": "11.潘由李 ",
 			"id": "num11",
 			"imageURL": "/images/11.jpg"
 		},
 		{
-			"name": "12.吴煜琳",
+			"name": "12.吴煜琳 ",
 			"id": "num12",
 			"imageURL": "/images/12.png"
 		},
 		{
-			"name": "13.吴雪瓶",
+			"name": "13.吴雪瓶 ",
 			"id": "num13",
 			"imageURL": "/images/13.jpg"
 		},
 		{
-			"name": "14.陈晓倩",
+			"name": "14.陈晓倩 ",
 			"id": "num14",
 			"imageURL": "/images/14.jpg"
 		},
 		{
-			"name": "15.陈佳馨",
+			"name": "15.陈佳馨 ",
 			"id": "num15",
 			"imageURL": "/images/15.jpg"
 		},
 		{
-			"name": "16.周烨",
+			"name": "16.周烨 ",
 			"id": "num16",
 			"imageURL": "/images/16.jpg"
 		}

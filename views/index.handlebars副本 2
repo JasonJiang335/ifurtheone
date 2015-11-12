@@ -34,32 +34,30 @@
         </div>
       </div>
     </div>
+
     
-    <span style="float: left">
-        <span id="num_div">
+    <div class="wrapper" align="center">
+        <div id="num_div">
             {{#each friends_row1}}
-            <div id="{{id}}" style='display: inline-block; padding: 5px; border-radius: 40px; margin-left: 50px'>
-                    <p style='color: white; font-size:25px'><img alt="Responsive image" style='width: 100px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/>{{name}}</p>
+            <div id="{{id}}" style='display: inline-block; padding: 5px; border-radius: 40px'>
+                    <img alt="Responsive image" style='width: 100px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/>
+                    <p style='color: white; font-size:25px'>{{name}}</p>
             </div>
-            <br>
             {{/each}}
-        </span>
-    </span>
-
-    <span id="wxscreen" style="display: inline">
-        <iframe src="http://wxscreen.com/zgtxlhh3/message" width="65%" height="680" zoom="0.6"></iframe>s
-    </span>
-
-    <span align="right" style="float: right">
-        <span id="num_div">
+            <br>
             {{#each friends_row2}}
-            <div id="{{id}}" style='display: inline-block; padding: 5px; border-radius: 40px; margin-right: 50px'>
-                    <p style='color: white; font-size:25px'>{{name}}<img alt="Responsive image" style='width: 100px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/></p>
+            <div id="{{id}}" style='display: inline-block; padding: 5px; border-radius: 40px'>
+                    <img alt="Responsive image" style='width: 100px' src="{{imageURL}}" class="img-rounded img-responssive" data-toggle="modal" data-target=".bs-modal-sm"/>
+                    <p style='color: white; font-size:25px'>{{name}}</p>
             </div>
-            <br>
             {{/each}}
-        </span>
-    </span>
+        </div>
+    </div>
+    <div id="wxscreen">
+        <center>
+            <iframe src="http://wxscreen.com/zgtxlhh3/message" width="1024" height="680" zoom="0.6"></iframe>
+        </center>
+    </div>
 
     <!--button class="btn btn-warning" data-toggle="modal" data-target=".bs-modal-lg" style="display:scroll;position:fixed;bottom:5px;left:5px;padding:20px" id="audgroup">观众讨论群</button-->
 
